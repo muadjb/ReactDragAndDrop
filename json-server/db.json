@@ -3,6 +3,43 @@
     { "id": 1, "title": "json-server", "author": "typicode" },
     { "id": 2, "title": "alive", "author": "typicode" }
   ],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" }
+  "typeclasses": [
+    { "id": 1, "name": "SemiGroup" },
+    { "id": 2, "name": "Monoid" },
+    { "id": 3, "name": "Applicative" },
+    { "id": 4, "name": "Alternative" },
+    { "id": 5, "name": "Monad" },
+    { "id": 6, "name": "Functor" },
+    { "id": 7, "name": "MonadPlus" },
+    { "id": 8, "name": "Bifunctor" },
+    { "id": 9, "name": "Ord" },
+    { "id": 10, "name": "Eq" },
+    { "id": 11, "name": "Traversable" },
+    { "id": 12, "name": "Foldable" }
+  ],
+  "methods": [
+    { "id": 1, "name": "<>" },
+    { "id": 2, "name": "mempty" },
+    { "id": 3, "name": "<*>" },
+    { "id": 4, "name": "liftA2" },
+    { "id": 5, "name": "pure" },
+    { "id": 6, "name": "empty" },
+    { "id": 7, "name": "<|>" },
+    { "id": 8, "name": "some" },
+    { "id": 9, "name": "many" },
+    { "id": 10, "name": "map" },
+    { "id": 11, "name": ">>=" },
+    { "id": 11, "name": ">>" },
+    { "id": 12, "name": "return" },
+    { "id": 13, "name": "mzero" },
+    { "id": 14, "name": "mplus" },
+    { "id": 15, "name": "bimap" },
+    { "id": 16, "name": "compare" },
+    { "id": 17, "name": "<=" },
+    { "id": 18, "name": "==" },
+    { "id": 19, "name": "traverse" },
+    { "id": 20, "name": "sequenceA" },
+    { "id": 21, "name": "foldMap" },
+    { "id": 22, "name": "foldr" }
+  ]
 }
